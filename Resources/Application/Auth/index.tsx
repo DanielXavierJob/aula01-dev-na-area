@@ -2,7 +2,6 @@ import React from 'react'
 import Head from "next/head"
 import Image from 'next/image'
 import FooterPage from '../../Components/Footer'
-import { ToastContainer } from 'react-nextjs-toast'
 
 type AuthPage = {
   pageTitle: string,
