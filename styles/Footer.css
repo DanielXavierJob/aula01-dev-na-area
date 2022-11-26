@@ -1,0 +1,324 @@
+#og-footer {
+  display: inline-block;
+  width: 100%;
+  padding-top: 28px;
+  margin-top: 40px;
+  text-align: left;
+  background-color: black;
+  font-family: Open Sans, Roboto, Arial, Arial, sans-serif;
+  line-height: 1.5
+}
+
+.og-footer__links-wrapper {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box
+}
+
+.og-footer__content-flex {
+  margin-bottom: 20px
+}
+
+#og-footer ul {
+  list-style: none;
+  font-size: 12px
+}
+
+#og-footer ul:not(.og-footer__content-flex) {
+  padding-left: 0;
+  margin-bottom: 0
+}
+
+.og-footer__content-spacing {
+  padding-right: 0;
+  padding-left: 0;
+  box-sizing: border-box
+}
+
+.og-footer__title {
+  color: white
+}
+
+.og-footer__company-title,
+.og-footer__title {
+  margin-bottom: 4px;
+  line-height: 1.2;
+  font-size: 16px
+}
+
+.footer-jogo-0 {
+  border-top: 2px solid #ff7e00;
+}
+
+.footer-jogo-0 .og-footer__title {
+  color: #ff7e00
+}
+
+.og-footer__company-title {
+  color: #29b6f6
+}
+
+.og-footer__links-flex {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.og-footer__links-flex>ul {
+  max-width: 180px;
+  min-width: 180px
+}
+
+.og-footer__link-item {
+  margin-top: 1px;
+  padding-left: 2px
+}
+
+.og-footer__link {
+  text-decoration: none;
+  color: white
+}
+
+.og-footer__link:hover {
+  text-decoration: underline;
+  color: #bbb
+}
+
+.og-footer__signature-company {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.og-footer__link:focus {
+  color: #ccc
+}
+
+.og-footer__link:visited {
+  color: white
+}
+
+.og-footer__icons-wrapper {
+  display: flex;
+}
+
+.og-footer__icons-item {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+  margin-top: 6px;
+  flex-shrink: 0
+}
+
+.og-footer__icons-item:last-child {
+  margin-right: 0
+}
+
+.og-footer__icon-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.og-footer__no-shrink {
+  flex-shrink: 0
+}
+
+.og-footer__age-wrapper:hover {
+  text-decoration: none
+}
+
+.og-footer__age-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  height: 59px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .3);
+  border: 1px solid rgba(255, 255, 255, .2);
+  box-sizing: border-box
+}
+
+.og-footer__age {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin: 3px 2px;
+  font-size: 30px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  background-color: #fdcd01;
+  color: black;
+  box-sizing: border-box
+}
+
+.og-footer__age-text {
+  flex: 1;
+  text-align: center;
+  font-size: 10px;
+  color: #bbb
+}
+
+.og-footer__age-title {
+  font-size: 11px;
+  color: white
+}
+
+.og-footer__maintenance {
+  padding: 0 8px;
+  margin: 20px 0 16px;
+  font-size: 11px;
+  text-align: center;
+  color: #999
+}
+
+.og-footer__maintenance p {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.og-footer__copyright {
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  background-color: #222
+}
+
+.og-footer__copyright-img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.og-footer__cnpj {
+  padding-top: 0
+}
+
+@media (max-width:619px) {
+  .og-footer__content-flex {
+    margin-bottom: 20px
+  }
+
+  .og-footer__icons-links {
+    min-width: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width:369px) {
+  .og-footer__age-title {
+    font-size: 10px
+  }
+}
+
+.og-footer__icon-face {
+  background-size: 180%;
+  background-image: url("https://imagem.ongame.net/footer/svg/facebook.svg")
+}
+
+.og-footer__icon-youtube {
+  background-image: url("https://imagem.ongame.net/footer/svg/youtube.svg")
+}
+
+.og-footer__icon-forum {
+  background-size: 170%;
+  background-image: url("https://imagem.ongame.net/footer/svg/forum.svg")
+}
+
+.og-footer__icon-instagram {
+  background-size: 210%;
+  background-image: url("https://imagem.ongame.net/footer/svg/instagram.svg")
+}
+
+.og-footer__icon-twitter {
+  background-image: url("https://imagem.ongame.net/footer/svg/twitter.svg")
+}
+
+.og-footer__icon-discord {
+  background-image: url("https://imagem.ongame.net/footer/svg/discord.svg")
+}
+
+.og-footer__icon-twitch {
+  background-size: 180%;
+  background-image: url("https://imagem.ongame.net/footer/svg/twitch.svg")
+}
+
+.og-footer__signature {
+  min-width: 135px
+}
+
+.og-footer__signature-app {
+  width: 135px;
+  height: 56px
+}
+
+.og-footer__community-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  padding-right: 24px;
+  justify-content: center
+}
+
+@media(min-width:851px) {
+  .og-footer__community-wrapper {
+    align-items: center;
+    padding-right: 10px
+  }
+
+  .og-footer__content-flex {
+    flex: 1;
+    margin-bottom: 10px
+  }
+
+  .og-footer__signature {
+    flex: 0
+  }
+}
+
+.og-footer__signature--mobile {
+  display: none
+}
+
+@media(max-width:620px) {
+  .og-footer__signature--desktop {
+    display: none
+  }
+
+  .og-footer__signature--mobile {
+    display: block;
+    margin-right: 45px
+  }
+
+  .og-footer__icons-wrapper {
+    flex-wrap: wrap;
+    margin-top: -8px
+  }
+
+  .og-footer__icons-item {
+    margin-top: 16px
+  }
+
+  .og-footer__icons-links {
+    max-width: 180px
+  }
+}
+
+@media(min-width:621px) {
+  .og-footer__links-flex {
+    justify-content: center
+  }
+}
